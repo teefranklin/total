@@ -1,0 +1,83 @@
+.profile-header span.text {
+	padding-left: 10px;
+}
+
+.profile-header img {
+	border: 1px dashed #007AFF;
+	padding: 4px;
+}
+
+.profile-header img:hover {
+	border: 1px dashed #007AFF;
+	padding: 8px;
+}
+
+.job-title {
+	font-style: italic;
+}
+
+.fullname {
+	font-weight: bolder;
+	color: black;
+	font-size: 20px;
+}
+
+.profile-body {
+	padding: 20px;
+	background-color: white !important;
+}
+
+.underLine {
+	background-color: #cccccc;
+	height: 3px;
+	width: 400px;
+}
+
+.detail {
+	font-weight: bold;
+	font-size: 14px;
+	color: #aaaaaa;
+}
+
+.text {
+	color: black;
+}
+
+p.bio {
+	margin-top: 20px;
+}
+
+p.bio-text {
+	margin-top: 0px;
+	font-style: italic;
+}
+
+[type="file"] {
+	height: 0;
+	overflow: hidden;
+	width: 0;
+}
+
+[type="file"]+label {
+	background: #00A0DF;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	font-size: inherit;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	outline: none;
+	padding: 1rem 50px;
+	position: relative;
+	transition: all 0.3s;
+	vertical-align: middle;
+	position: absolute;
+	top :200px;
+	left:60px;
+}
+.my-wrapper:hover img{
+	opacity:0.9;
+}
